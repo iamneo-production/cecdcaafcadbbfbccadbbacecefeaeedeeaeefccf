@@ -1,4 +1,9 @@
+
+
 public class ApiController {
-    
-    return "Welcome";
+    @getMapping
+    public String Welcome()
+    {
+    return "Welcome String Boot!";
+    }
 }
